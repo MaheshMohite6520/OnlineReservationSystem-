@@ -93,7 +93,7 @@ public class OnlineReservSystem {
         System.out.println("Enter PNR number to cancel a reservation: ");
         String pnrNumber = sc.next();
         System.out.println("");
-        System.out.println("Do you want to cancel this ticket (OK/Cancel): ");
+        System.out.println("Do you want to cancel this ticket (Yes/No): ");
         String confirmation = sc.next();
         if (confirmation.equalsIgnoreCase("OK")) {
             System.out.println("");
